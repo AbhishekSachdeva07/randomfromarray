@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include <stdlib.h>
+int main()
+{
+    int a, arr[10000];
+    scanf("%d",&a);
+    for (int i=0; i<a; ++i){
+        int b;
+        scanf("%d",&b);
+        arr[i]=b;
+
+    }
+    int c = (rand()%a)+0;
+    printf("%d",arr[c]);
+    return 0;
+}
